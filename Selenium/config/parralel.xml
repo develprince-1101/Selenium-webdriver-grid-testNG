@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="parralleltesting" parallel="classes">
+	<test name="Assert Equals">
+		<classes>
+			<class name="testNG.AssertEquals" />
+		</classes>
+	</test>
+	<test name="Annotations">
+		<classes>
+			<class name="testNG.Annotations" />
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="TestNG">
+	<test name="Test Grouping">
+		<groups>
+			<run>
+				<include name="D" />
+				<include name="B" />
+
+			</run>
+		</groups>
+		<classes>
+			<class name="testNG.TestNGGrouping" />
+			<class name="testNG.TestNGGrouping2" />
+		</classes>
+	</test>
+</suite>
